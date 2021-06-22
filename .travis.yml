@@ -21,4 +21,4 @@ deploy:
     branch: main
   provider: script
   # credentials entered at https://travis-ci.com/.../repo_name
-  script: mkdir data/ && make dog_data && pipenv run python -m levenshtein_calculation
+  script: make dog_data && pipenv run python -m levenshtein_calculation
