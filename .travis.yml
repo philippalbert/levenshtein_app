@@ -20,6 +20,5 @@ deploy:
   on:
     branch: main
   provider: script
-  # Before running, get the data from s3 using the secret
   # credentials entered at https://travis-ci.com/.../repo_name
   script: mkdir data/ && make dog_data && pipenv run python -m levenshtein_calculation
