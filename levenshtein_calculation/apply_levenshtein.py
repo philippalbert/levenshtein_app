@@ -1,4 +1,4 @@
-import pandas as pd
+from pandas import read_csv
 from Levenshtein import distance
 
 
@@ -13,7 +13,7 @@ def get_distance_words(word: str = "Luca", desired_distance: int = 1) -> list:
     :param desired_distance: indicator for length to word
     :returns: list of words with distance
     """
-    df = pd.read_csv("./data/dog_data.csv")
+    df = read_csv("./data/dog_data.csv")
 
     df['levenshtein_distance'] = df.apply(lambda row: distance(row['HUNDENAME'], word), axis=1)
 
