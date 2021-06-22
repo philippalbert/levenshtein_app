@@ -4,5 +4,3 @@ omit =
     */test_*.py
     */*_tests.py
 
-exclude_lines =
-    if __name__ == .__main__.:
