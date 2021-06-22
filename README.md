@@ -1,5 +1,9 @@
 # levenshtein calculation
 
+[![Build Status](https://travis-ci.org/philippalbert/levenshtein_app.svg?branch=main)](https://travis-ci.org/philippalbert/levenshtein_app)
+[![Maintainability](https://api.codeclimate.com/v1/badges/fa2c0fcfa6dc41fa4178/maintainability)](https://codeclimate.com/github/philippalbert/levenshtein_app/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/fa2c0fcfa6dc41fa4178/test_coverage)](https://codeclimate.com/github/philippalbert/levenshtein_app/test_coverage)
+
 This repo calculates uses the levenshtein distance to calculate the distance between
 strings. 
 
